@@ -58,11 +58,44 @@ The project follows a systematic workflow:
 
 ---
 
-### 4. How to Use This Project
+### 4. How to Run the Project
 
-#### ✅ Prerequisites
+#### ✅ Import into Kaggle
 
-You need Python 3 and the following libraries. Install them using:
+1. Go to [Kaggle](https://www.kaggle.com/) and import this notebook into your Kaggle environment.
 
-```bash
-pip install tensorflow keras librosa pandas scikit-learn seaborn matplotlib praat-parselmouth
+#### ✅ Add Datasets
+
+2. Upload the datasets (CREMA-D, RAVDESS, SAVEE, TESS) by navigating to the **Datasets** tab in the Kaggle notebook and adding them to your project.
+
+#### ✅ Run the Notebook
+
+3. Run the notebook step-by-step to:
+   - Preprocess the data  
+   - Perform feature extraction  
+   - Apply data augmentation  
+   - Train the models  
+
+4. Ensure that all required libraries are installed in the Kaggle environment.
+
+#### ✅ Training
+
+5. Once the datasets are loaded and prepared, execute the training cells to train the CNN, LSTM, or CLSTM models and evaluate their performance.
+
+---
+
+## 📂 Acknowledgements
+
+- Datasets: RAVDESS, CREMA-D, TESS, SAVEE
+- Libraries: TensorFlow, Keras, librosa, scikit-learn, praat-parselmouth
+- Inspiration: Research in affective computing, speech analysis, and deep learning for emotion recognition.
+
+---
+
+## 🚀 License
+
+This project is open-source and available for research, educational, and development purposes.
+
+---
+
+Feel free to contribute, experiment, or adapt this framework for other audio-based classification tasks!
